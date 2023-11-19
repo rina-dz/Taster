@@ -1,12 +1,14 @@
 import React from 'react';
+import "./Main.css";
 import Header from '../Header/Header';
 
 function Main() {
 
 
     return (
-        <div>
-        <Header /></div>
+        <section className='main'>
+            <Header />
+        </section>
     )
 }
 

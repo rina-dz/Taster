@@ -1,0 +1,37 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    max-width: 240px;
+}
+
+.navigation__container {
+    height: 800px;
+    width: 80px;
+    color: #28292B;
+    text-align: center;
+    font-family: Arial;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+    list-style: none;
+    writing-mode: vertical-lr; 
+    text-orientation: sideways;
+    cursor: pointer;
+}
+
+.navigation__contact {
+    background-color: #FC564A;
+}
+
+.navigation__brands {
+    background-color: #FFAF00;
+}
+
+.navigation__about-us {
+    background-color: #8899CC;
+}

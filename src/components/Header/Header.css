@@ -2,6 +2,7 @@
     display: flex;
     margin: 0;
     padding: 0 50px;
+    width: 1100px;
 }
 
 .header__logo {
@@ -12,7 +13,7 @@
 
 .header__stores-container {
     display: flex;
-    margin: 41px 120px 50px 159px;
+    margin: 41px auto 50px auto;
     padding: 0;
 }
 
@@ -26,7 +27,8 @@
 .header__langs-container {
     display: flex;
     flex-direction: row;
-    margin: 44px 50px 56px 0px;
+    justify-content: space-between;
+    margin: 44px 0 56px 0px;
     padding: 0;
 }
 
@@ -39,6 +41,6 @@
     line-height: 50px;
     text-transform: uppercase;
     list-style-type: none;
-    margin-right: 21px;
+    margin-left: 21px;
     cursor: pointer;
 }

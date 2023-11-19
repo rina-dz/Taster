@@ -11,8 +11,8 @@ function Header() {
         <header className="header">
             <img className='header__logo' src={logo} alt='логотип' />
             <div className='header__stores-container'>
-                <img className='header__store' src={appStore} alt='Приложение в appStore'/>
-                <img className='header__store' src={googlePlay} alt='Приложение в googlePlay'/>
+                <img className='header__store' src={appStore} alt='Приложение в appStore' />
+                <img className='header__store' src={googlePlay} alt='Приложение в googlePlay' />
             </div>
             <ul className='header__langs-container'>
                 <li className='header__lang'>EN</li>
