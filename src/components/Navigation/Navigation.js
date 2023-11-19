@@ -1,6 +1,8 @@
 import './Navigation.css';
 import React from 'react';
 
+// поменять пункты на ссылки
+
 
 function Navigation() {
 
