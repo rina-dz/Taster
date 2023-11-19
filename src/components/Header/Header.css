@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    margin: 0;
+    padding: 0 50px;
+}
+
+.header__logo {
+    width: 362px;
+    height: 80px;
+    margin: 45px 0 25px 0;
+}
+
+.header__stores-container {
+    display: flex;
+    margin: 41px 120px 50px 159px;
+    padding: 0;
+}
+
+.header__store {
+    width: 162px;
+    height: 59px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.header__langs-container {
+    display: flex;
+    flex-direction: row;
+    margin: 44px 50px 56px 0px;
+    padding: 0;
+}
+
+.header__lang {
+    color: #FB3B2D;
+    font-family: Arial;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-right: 21px;
+    cursor: pointer;
+}
