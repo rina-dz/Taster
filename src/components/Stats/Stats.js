@@ -12,7 +12,7 @@ function Stats() {
 
     return (
         <section className="stats">
-            <div className='stast__title-container'>
+            <div className='stast__title-container' id="stats">
                 <h2 className='stats__title'>Bitesize Stats</h2>
             </div>
             <ul className='stats__container'>

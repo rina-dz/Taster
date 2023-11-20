@@ -2,8 +2,9 @@ import React from 'react';
 import "./Footer.css";
 
 function Footer() {
-    
-    const url = 'https://manna-board.ru/storage/files/ru/12611/04a026d3729aa0e4b667f514cae2650c.jpg';
+
+    const url1 = 'https://manna-board.ru/storage/files/ru/12611/04a026d3729aa0e4b667f514cae2650c.jpg';
+    const url2 = "https://fikiwiki.com/uploads/posts/2022-02/1645042296_3-fikiwiki-com-p-kartinki-ishchu-rabotu-4.jpg";
 
     return (
         <footer className="footer">
@@ -29,11 +30,11 @@ function Footer() {
                 </div>
             </div>
             <div className='footer__links-container'>
-                <h3 className='footer__links-title'>Corporate</h3>
-                <a className='footer__link' href={url} target="_blank" rel="noreferrer">Contact</a>
-                <a className='footer__link' href={url} target="_blank" rel="noreferrer">Our Story</a>
-                <a className='footer__link' href={url} target="_blank" rel="noreferrer">Jobs</a>
-                <a className='footer__link' href={url} target="_blank" rel="noreferrer">Support</a>
+                <h3 className='footer__links-title' id="contact">Corporate</h3>
+                <a className='footer__link' href={url1} target="_blank" rel="noreferrer">Contact</a>
+                <a className='footer__link' href={url2} target="_blank" rel="noreferrer">Our Story</a>
+                <a className='footer__link' href={url1} target="_blank" rel="noreferrer">Jobs</a>
+                <a className='footer__link' href={url2} target="_blank" rel="noreferrer">Support</a>
             </div>
             <div className='footer__links-container'>
                 <h3 className='footer__links-title'>Socials</h3>
