@@ -3,6 +3,7 @@ import "./Main.css";
 import Header from '../Header/Header';
 import Depiction from '../Depiction/Depiction';
 import Stats from '../Stats/Stats';
+import Footer from '../Footer/Footer';
 
 
 function Main() {
@@ -13,6 +14,7 @@ function Main() {
             <Header />
             <Depiction />
             <Stats />
+            <Footer />
         </section>
     )
 }
